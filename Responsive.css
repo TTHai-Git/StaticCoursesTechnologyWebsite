@@ -1,0 +1,93 @@
+@media screen and (max-width: 600px)
+{
+    *{
+        box-sizing: border-box;
+    }
+    div.main
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    img{
+        width: 100%;
+    }
+    div.Main-left{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+    }
+    div.Office-information{
+        display: block;
+    }
+    div.Main-right{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        margin: 0%;
+    }
+    div#header{
+        width: 100%;
+    }
+    div.Footer{
+        width: 100%;
+        font-size: 10px;
+        display: block;
+    }
+    div.Footer-title-left{
+        font-size: 20px;
+        width: 100%;
+        border-right: none;
+    }
+    div.Footer-title-right{
+        font-size: 20px;
+        width: 100%;
+    }
+    div.Software
+    {
+        display: block;
+        width: 100%;
+    }
+    div.container-items-right
+    {
+        display: block;
+    }
+    div.news-img{
+        display: block;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    div.img img{
+        width: 100%;
+    }
+    div.content1{
+        text-align: center;
+    }
+    ul.Nav-menu,ul.Nav-menu-left,ul.Nav-menu-right{
+        display: block;
+    }
+    ul.Nav-menu{
+        position: static;
+    }
+    div.Nav{
+        display: none;
+    }
+    div.Nav-mobile-icon
+    {
+        display: block;
+    }
+    div.Nav-mobile-icon:hover
+    {
+        width: 25%;
+    }
+    i.fa-soild fa-bars
+    {
+        padding: 16px;
+    }
+    div.Nav-mobile-icon:hover div.Nav-Mobile
+    {
+        display: block;
+        top:42px;
+    }
+}
+    

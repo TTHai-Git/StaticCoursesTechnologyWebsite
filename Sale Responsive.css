@@ -1,0 +1,166 @@
+@media screen and (max-width: 500px)
+{
+    *{
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    div.Nav{
+        width: 100%;
+    }
+    div.Footer{
+        width: 100%;
+        font-size: 10px;
+        display: block;
+    }
+    div.Footer-title-left{
+        font-size: 20px;
+        width: 100%;
+        border-right: none;
+    }
+    div.Footer-title-right{
+        font-size: 20px;
+        width: 100%;
+    }
+    ul.Nav-menu,ul.Nav-menu-left,ul.Nav-menu-right{
+        display: block;
+    }
+    ul.Nav-menu{
+        position: static;
+    }
+    div.Nav{
+        display: none;
+    }
+    div.Nav-mobile-icon
+    {
+        display: block;
+       
+    }
+    div.Nav-mobile-icon:hover
+    {
+        width: 25%;
+    }
+    i.fa-soild fa-bars
+    {
+        padding: 16px;
+    }
+    div.Nav-mobile-icon:hover div.Nav-Mobile
+    {
+        display: block;
+        top:42px;
+        z-index: 99;
+        opacity: 0.7;   
+    }
+    div.main
+    {
+        width: 90%;
+        margin: 5%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    div.product
+    {
+        width: 40%;
+    }
+    div.click
+    {
+        width: 40%;
+    }
+    div.click  div
+    {
+        position: absolute;
+        left: 45%;
+        bottom: 1%;
+    }
+    h1 {
+        font-size: 0.5rem;
+    }
+    h2 
+    {
+        font-size: 0.6rem;
+    }
+    div.list-book-programming
+    {
+        display: none;
+    }
+    div.list-book-office-information
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    div.main
+    {
+        width: 90%;
+        margin: 5%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    div.product
+    {
+        width: 90%;
+    }
+    div.click  div
+    {
+        position: absolute;
+        left: 60%;
+        bottom: 5%;
+    }
+    h1 {
+        font-size: 0.6rem;
+    }
+    h2 
+    {
+        font-size: 0.7rem;
+    }
+    div.list-book-programming
+    {
+        display: none;
+    }
+    div.list-book-office-information
+    {
+        display: none;
+    }
+    div.title
+    {
+        display: block;
+        padding: 50px 20px 50px 20px;
+        text-align: center;
+    }
+    div.list-book-life
+    {
+        display: none;
+    }
+}
+
+/* @media screen and (min-width: 1280px)
+{
+    div.main
+    {
+        width: 90%;
+        margin: 5%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    div.product
+    {
+        width: 30%;
+    }
+    div.click  div
+    {
+        position: absolute;
+        left: 60%;
+        bottom: 5%;
+    }
+    h1 {
+        font-size: 0.6rem;
+    }
+    h2 
+    {
+        font-size: 0.7rem;
+    }
+} */

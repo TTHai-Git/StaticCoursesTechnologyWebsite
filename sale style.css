@@ -1,0 +1,377 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 16px;
+}
+body
+{
+    background-color: #f0f1f5;
+}
+div.product
+{
+    box-sizing: border-box;
+    width: 16%;
+    border: 3px #00a5df solid;
+    margin: 2%;
+    border-radius: 5px 7px;
+    position: relative;
+    font-family: 'Mulish', sans-serif;
+}
+div.main{
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+div.name-book > h1 
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 6px 4px;
+}
+div.price > h3
+{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 6px 4px;
+    text-decoration: line-through;
+}
+div.price > h2 
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 6px 4px;
+    color: rgb(255, 57, 69);
+}
+div.information-product
+{
+    padding: 6px 4px;
+}
+
+
+ul.Nav-menu
+{
+    display: flex;
+    padding: 0;
+    margin: 0;
+   justify-content: space-between;
+   background-color: #171c24;
+   box-sizing: border-box;
+   flex-wrap: wrap;
+   /* position: fixed; */
+   top:0;
+   left: 0;
+   right: 0;
+   /* z-index: 99; */
+}
+
+div.Nav-button{
+    display: none;
+}
+
+ul.Nav-menu-left{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.Nav-menu-right{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ul.Nav-menu li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 16px 14px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+ul.Nav-menu li
+{
+    list-style-type: none;
+    padding: 16px 14px;
+    border-radius: 7px;
+}
+
+#header
+{
+    background-color: #171c24;
+    height: 50px;
+    width: 100%;
+}
+
+div.Header
+{
+    background-color: rgb(168, 117, 22);
+    padding: 20px 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+ul.Nav-menu li:hover
+{
+    background-color: cornflowerblue;
+    color: burlywood;
+   
+}
+
+ul.Nav-menu-right li:last-child:hover
+{
+    background-color: aquamarine;
+}
+div.click
+{
+    width: 16%;
+    box-sizing: border-box;
+}
+div.click{
+    width: 16%;
+    box-sizing: border-box;
+}
+div.click input
+{
+    font-size: 0.8rem;
+    height: 40px;
+    padding: 7px;
+    position:absolute ;
+    bottom: 3%;
+    left: 50%;
+}
+div.click input:hover
+{
+    color: white;
+    background-color: #f31f5f;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 3px #ffb916 solid;
+}
+div.click input:active
+{
+    color: white;
+    background-color: #f31f5f;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 3px #ffb916 solid;
+}
+div.img 
+{
+    position: relative;
+}
+div.promo
+{
+    background-color: #ffb916;
+    color: #ffffff;
+    width: 70px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px 5px;
+    position: absolute;
+    top:2%;
+    right: 2%;
+    animation: changecolor linear 1.5s infinite;
+}
+div.img > img
+{
+    width: 80%;
+    transition: transform linear 0.7s;
+    padding: 7spx;
+}
+div.img > img:hover
+{
+    transform: scale(0.7);
+}
+@keyframes changecolor {
+    0%
+    {
+        color: #ffffff;
+    }
+    50%
+    {
+        color: #ffb916;
+    }
+    100%
+    {
+        color: #f31f5f;
+    }
+}
+div.title
+{
+    padding: 50px 10px 50px 400px;
+}
+h4
+{
+    position: relative;
+    font-size: 3.0em;
+    color: #252839;
+    -webkit-text-stroke: 0.1em #c74d86 ;
+    text-transform: uppercase;
+}
+h4::before
+{
+    text-align: center;
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 100%;
+    color: #fafe01;
+}
+a
+{
+    text-decoration: none;
+}
+
+
+
+div.Footer{
+    box-sizing: border-box;
+    color: rgb(204, 129, 31);
+    background-color: black;
+    background-size: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+div.Footer-title-left{
+    width: 70%;
+    border-right: 1px solid rgb(194, 13, 13);
+}
+
+div.Footer-title-right{
+   width: 30%;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.footer-items-left li{
+    list-style-type: none;
+    padding: 20px 8px;
+}
+
+ul.footer-items-right li{
+    list-style-type: none;
+    padding: 10px 8px;
+    font-size: 30px;
+}
+
+div.Footer-title-left{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 16px 20px;
+}
+
+div.Footer-title-right{
+    padding: 16px 12px;
+}
+
+input[type="email"]
+{
+    width: 90%;
+    padding: 10px;
+}
+
+input[type="textarea"]
+{
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+}
+ul.footer-items-right li:last-child{
+    padding: 10px;
+    width: 100%;
+}
+
+div.Nav-Mobile{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+div.Nav-mobile-icon
+{
+    display: none;
+    position: relative;
+    width: 20%;
+}
+svg
+{
+    background-color: grey;
+    width: 40%;
+}
+#btnScrollToTop
+{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e62739;
+    box-shadow: 0 0 10px  rbga(0, 0, 0, 0, 25);
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+#btnScrollToTop:active
+{
+    background-color: #cc2333;
+
+}
+div.list-book-programming
+{
+    width: 5%;
+    background-color: #00a5df;
+    position: absolute;
+    top:22%;
+    left: 5% ;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    color: #f0f1f5;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+div.list-book-office-information
+{
+    width: 5%;
+    background-color: #00a5df;
+    position: absolute;
+    top:60%;
+    left: 5%;
+    text-align: center;
+    padding: 20px;
+    color: #f0f1f5;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+div.list-book-life
+{
+    width: 5%;
+    background-color: #00a5df;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    text-align: center;
+    padding: 20px;
+    color: #f0f1f5;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

@@ -88,6 +88,9 @@
     {
         display: block;
         top:42px;
+        opacity: 0.7;
+        color: white;
+        font-weight: bold;
     }
 }
     

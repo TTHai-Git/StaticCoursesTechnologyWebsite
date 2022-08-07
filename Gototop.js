@@ -20,8 +20,4 @@ $(document).ready(function() {
             behavior:"smooth"
         })
     })      
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> ca81256fb98444d4e7b714548de23c88caf50b0a

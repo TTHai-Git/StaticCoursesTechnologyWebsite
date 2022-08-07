@@ -19,9 +19,4 @@ $(document).ready(function() {
             left:0,
             behavior:"smooth"
         })
-    })      
-<<<<<<< HEAD
-})
-=======
-})
->>>>>>> ca81256fb98444d4e7b714548de23c88caf50b0a
+    })    

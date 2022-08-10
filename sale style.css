@@ -93,14 +93,12 @@ ul.Nav-menu li a{
     color: whitesmoke;
     padding: 16px 14px;
     font-weight: bold;
-    border-radius: 7px;
 }
 
 ul.Nav-menu li
 {
     list-style-type: none;
     padding: 16px 14px;
-    border-radius: 7px;
 }
 
 #header
@@ -123,14 +121,14 @@ div.Header
 
 ul.Nav-menu li:hover
 {
-    background-color: cornflowerblue;
+    background-color: rgb(94, 146, 241);
     color: burlywood;
    
 }
 
 ul.Nav-menu-right li:last-child:hover
 {
-    background-color: aquamarine;
+    background-color:  rgb(94, 146, 241);
 }
 div.click
 {
@@ -187,7 +185,7 @@ div.img > img
 {
     width: 80%;
     transition: transform linear 0.7s;
-    padding: 7spx;
+    padding: 7px;
 }
 div.img > img:hover
 {
@@ -374,4 +372,30 @@ div.list-book-life
     font-family: 'Mulish', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
+}
+.drop-menu
+{
+    padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
+    background-color: #171c24;
+    width: 200px;
+}
+ul.drop-menu > li
+{
+    border: 1px solid #ffffff;
+    text-align: left;
+}
+.menu
+{
+    position: relative;
+    border-radius: none !important;
+}
+.menu:focus-within .drop-menu
+{
+    display: block;
+    
 }

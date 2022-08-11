@@ -394,7 +394,7 @@ ul.drop-menu > li
     position: relative;
     border-radius: none !important;
 }
-.menu:focus-within .drop-menu
+.menu:hover.drop-menu
 {
     display: block;
     

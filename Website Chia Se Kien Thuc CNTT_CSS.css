@@ -394,9 +394,7 @@ ul.drop-menu > li
 {
     
     border: 1px solid #ffffff;
-    text-align: left;
-   
-    
+    text-align: left;  
 }
 .menu
 {
@@ -406,7 +404,6 @@ ul.drop-menu > li
 .menu:focus-within .drop-menu
 {
     display: block;
-    
 }
 button#show1
 {
@@ -415,15 +412,12 @@ button#show1
 button#hide1
 {
     padding: 5px;
-   
 }
 button#show2
 {
     padding: 5px;
-  
 }
 button#hide2
 {
     padding: 5px;
-  
 }

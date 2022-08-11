@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px)
+@media screen and (max-width: 600px)
 {
     div.Nav
     {
@@ -8,12 +8,12 @@
     {
         display: block;
     }
-    div.Nav-mobile-icon:hover .Nav-Mobile
+    /* div.Nav-mobile-icon:hover .Nav-Mobile
     {
         display: block;
         z-index: 99;
         opacity: 0.7;
-    }
+    } */
     div.main
     {
         width: 90%;
@@ -149,5 +149,14 @@
     div.Footer-title-right{
         font-size: 20px;
         width: 100%;
+    }
+    img#close
+    {
+        width: 25% ;
+        height: 25%;
+    }
+    div.close-bar
+    {
+        display: none;
     }
 }

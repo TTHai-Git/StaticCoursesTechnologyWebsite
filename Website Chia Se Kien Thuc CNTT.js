@@ -27,7 +27,7 @@ $(document).ready(function(){
                 "position" : "relative" ,
                 "top" :1 ,
                 "left":0 ,
-                "z-index" : "999",
+                "z-index" : "9999",
                 "opacity" : 0.7 ,
                
             })
@@ -49,7 +49,7 @@ $(document).ready(function(){
                 "position" : "relative" ,
                 "top" :1 ,
                 "left":0 ,
-                "z-index" : "999",
+                "z-index" : "9999",
                 "opacity" : 0.7 ,
                
             })
@@ -64,6 +64,30 @@ $(document).ready(function(){
         });
        
     })
+    $(".Nav-mobile-icon").click(function(){
+        $(".Nav-Mobile").show(function(){
+            $((this)).css({
+                "display" : "block" ,
+                "position" : "absolute" ,
+                "top" : 0 ,
+                "left": 0 ,
+                "opacity": 0.5 ,
+                "z-index" : 10 ,
+            })
+        })
+    })
+    $("#close").click(function(){
+        $(".Nav-Mobile").hide(function(){
+            $((this)).css({
+                "display" : "none" ,
+                // "position" : "absolute" ,
+                // "top" : 0 ,
+                // "left": 0 ,
+                // "opacity": 0.7 ,
+                // "z-index" : 10 ,
+            },)
+        },)
+    },)
 })
 
 var d = new Date();

@@ -32,8 +32,9 @@ $(document).ready(function(){
                
             })
         });
+        
        
-      })
+    })
       $("#hide1").click(function(){
         $("ul.drop-menu1").hide(function(){
             $((this)).css({
@@ -41,7 +42,7 @@ $(document).ready(function(){
             })
         });
        
-      })
+    })
       $("#show2").click(function(){
         $("ul.drop-menu2").show(function(){
             $((this)).css({
@@ -52,10 +53,9 @@ $(document).ready(function(){
                 "opacity" : 0.7 ,
                
             })
-            
-        });
+         });
        
-      })
+    })
       $("#hide2").click(function(){
         $("ul.drop-menu2").hide(function(){
             $((this)).css({
@@ -63,8 +63,7 @@ $(document).ready(function(){
             })
         });
        
-      })
-  
+    })
 })
 
 var d = new Date();

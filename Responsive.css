@@ -94,6 +94,7 @@
         color: white;
         font-weight: bold;
     }
+
     .menu1
     {
         position: relative;
@@ -110,15 +111,15 @@
         list-style-type: none;
         font-weight: 600;
         border: 1px solid whitesmoke ;
-        max-width: 600px;
+        width: 200px;
     }
-    .menu1:hover .drop-menu1
+    /* .menu1:hover .drop-menu1
     {
         display: block;
         top: 0;
         left: 228px;
         font-weight: bold;
-    }
+    } */
     .menu2
     {
         position: relative;
@@ -137,13 +138,21 @@
         border: 1px solid whitesmoke ;
         max-width: 600px;
     }
-    .menu2:hover .drop-menu2
+    /* .menu2:hover .drop-menu2
     {
         display: block;
         top: 0;
         left: 228px;
         font-weight: bold;
         
+    } */
+    ul.Nav-menu li 
+    {
+        padding: 10px;
+    }
+    li.Menu-items.menu1
+    {
+        width: 220px;
     }
 }
     

@@ -75,13 +75,13 @@
         border: 1px solid whitesmoke ;
         max-width: 600px;
     }
-    .menu1:hover .drop-menu1
+    /* .menu1:hover .drop-menu1
     {
         display: block;
         top: 0;
         left: 201px;
         font-weight: bold;
-    }
+    } */
     .menu2
     {
         position: relative;
@@ -100,13 +100,41 @@
         border: 1px solid whitesmoke ;
         max-width: 600px;
     }
-    .menu2:hover .drop-menu2
+    /* .menu2:hover .drop-menu2
     {
         display: block;
         top: 0;
         left: 201px;
         font-weight: bold;
         
+    } */
+        button#show1
+    {
+        padding: 5px;
+    }
+    button#hide1
+    {
+        padding: 5px;
+    
+    }
+    button#show2
+    {
+        padding: 5px;
+    
+    }
+    button#hide2
+    {
+        padding: 5px;
+    
+    }
+    ul.Nav-menu li
+    {
+        padding: 10px;
+    }
+    
+    li.Menu-items.menu1
+    {
+        width: 220px;
     }
     div.Footer{
         width: 100%;

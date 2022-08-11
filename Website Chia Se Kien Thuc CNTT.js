@@ -21,6 +21,50 @@ $(document).ready(function(){
             })
         }
     })
+    $("#show1").click(function(){
+        $("ul.drop-menu1").show(function(){
+            $((this)).css({
+                "position" : "relative" ,
+                "top" :1 ,
+                "left":0 ,
+                "z-index" : "999",
+                "opacity" : 0.7 ,
+               
+            })
+        });
+       
+      })
+      $("#hide1").click(function(){
+        $("ul.drop-menu1").hide(function(){
+            $((this)).css({
+               "display" : "none" ,
+            })
+        });
+       
+      })
+      $("#show2").click(function(){
+        $("ul.drop-menu2").show(function(){
+            $((this)).css({
+                "position" : "relative" ,
+                "top" :1 ,
+                "left":0 ,
+                "z-index" : "999",
+                "opacity" : 0.7 ,
+               
+            })
+            
+        });
+       
+      })
+      $("#hide2").click(function(){
+        $("ul.drop-menu2").hide(function(){
+            $((this)).css({
+               "display" : "none" ,
+            })
+        });
+       
+      })
+  
 })
 
 var d = new Date();

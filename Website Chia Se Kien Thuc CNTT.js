@@ -64,31 +64,38 @@ $(document).ready(function(){
         });
        
     })
+        // var navbar_toggle = document.getElementById("navbar-toggle");
+        // navbar_toggle.onclick = function(){
+        // navbar_toggle.classList.toggle('open')
+        // }
+  
+
     $(".Nav-mobile-icon").click(function(){
-        $(".Nav-Mobile").show(function(){
-            $((this)).css({
-                "display" : "block" ,
-                "position" : "absolute" ,
-                "top" : 0 ,
-                "left": 0 ,
-                "opacity": 0.5 ,
-                "z-index" : 10 ,
+            $(".Nav-Mobile").show(function(){
+                $((this)).css({
+                    "display" : "block" ,
+                    "position" : "absolute" ,
+                    "top" : 0 ,
+                    "left": 0 ,
+                    "z-index" : 10 ,
+                    "opacity" : 0.7 ,
+                })
             })
-        })
     })
-    $("#close").click(function(){
+    $(".Nav-mobile-icon-off").click(function(){
         $(".Nav-Mobile").hide(function(){
             $((this)).css({
                 "display" : "none" ,
-                // "position" : "absolute" ,
-                // "top" : 0 ,
-                // "left": 0 ,
-                // "opacity": 0.7 ,
-                // "z-index" : 10 ,
-            },)
-        },)
-    },)
+                "position" : "absolute" ,
+                "top" : 0 ,
+                "left": 0 ,
+                "z-index" : 10 ,
+            })
+        })
+    })   
 })
+
+
 
 var d = new Date();
         var ngay = d.getDate();

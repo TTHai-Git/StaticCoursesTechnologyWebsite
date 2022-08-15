@@ -185,8 +185,6 @@ div.start-content
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
-    flex-direction: row;
 }
 div.start-step
 {
@@ -202,6 +200,10 @@ div.start-step
     background-color: #ffffff ;
     border-radius: 10px 10px 10px 10px;
     font-size: 1.3rem;
+    /* box-shadow: 20px 20px 50px 10px pink inset; */
+    box-shadow: 20px 20px 10px grey;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 div.start-introduce > h2
 {

@@ -20,14 +20,14 @@ div.introduce
 }
 div.content-introduce
 {
-    width: 50%;
-    margin: 10%;
+    width: 40%;
+    margin: 5%;
     text-align: left;
 }
 div.contain-img
 {
-    width: 30%;
-    margin: 10%;
+    width: 40%;
+    margin: 5%;
 }
 div.contain-img img
 {
@@ -56,6 +56,7 @@ div.buttonclick
 }
 input#join
 {
+    border-width: 0px!important;
     padding: 20px 20px ;
     background-color: #0056d2;
     text-align: center;
@@ -89,6 +90,7 @@ div.title-donor
 {
     text-align: center;
     padding: 16px;
+    margin: 20px 16px;
 }
 div.list-donor
 {
@@ -110,6 +112,125 @@ div.list-donor-items
 }
 div.list-donor-items > img
 {
-    width: 70%;
+    width: 80%;
     vertical-align: middle;
+}
+div.might
+{
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 22px;
+}
+div.might > h2
+{
+   font-size: 2.5rem;
+   color: #282781;
+}
+div.suggest
+{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.suggest-img
+{
+    width: 40%;
+    margin: 5%;
+}
+div.suggest-img img
+{
+    width: 100%;
+}
+div.suggest-content
+{
+    width: 40%;
+    margin: 5%;
+    
+}
+div.suggest-content ul
+{
+    padding: 16px 10px;
+    color: rgb(13, 13, 156);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+div.suggest-content ul li
+{
+    color: rgb(21, 231, 231);
+    font-weight: 600;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+div.start-introduce
+{
+    width: 100%;
+    text-align: center;
+}
+div.start-introduce p
+{
+    font-size: 1.5rem;
+}
+div.start
+{
+    box-sizing: border-box;
+    width: 100%;
+}
+div.start-content
+{
+    width: 90%;
+    margin: 0 5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+div.start-step
+{
+    text-align: center;
+    font-weight: 300;
+    overflow: hidden;
+    padding-top: 30px!important;
+    padding-right: 20px!important;
+    padding-bottom: 40px!important;
+    padding-left: 20px!important;
+    width: 26%;
+    margin: 2%;
+    background-color: #ffffff ;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 1.3rem;
+}
+div.start-introduce > h2
+{
+    color: #282781;
+    padding: 20px;
+    font-weight: bold;
+}
+div.suggest-sign
+{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+input#joinnow
+{
+    margin: 10px;
+    padding: 20px;
+    width: 180px;
+    height: 50px;
+    color: #ffffff!important;
+    border-width: 0px!important;
+    border-radius: 7px;
+    font-weight: 700!important;
+    background-color: #f15a29;
+    font-size: 1.0rem;
+}
+div.suggest-sign > h2
+{
+    color: #0056d2;
+    padding: 20px;
 }

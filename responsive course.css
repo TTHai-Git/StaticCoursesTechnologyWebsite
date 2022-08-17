@@ -1,0 +1,182 @@
+@media only screen and (min-width:1200px) 
+{
+    div.watch
+    {
+        position: absolute;
+        top: 89.5%;
+        left: 14%;
+        z-index: 999;
+    }
+    div.watch1
+    {
+        position: absolute;
+        top: 89.5%;
+        left: 44%;    
+        z-index: 999;
+    }
+    div.watch2
+    {
+        position: absolute;
+        top: 89.5%;
+        left: 74.5%;    
+        z-index: 999;
+    }
+}
+@media screen and (max-width: 500px ) 
+{
+    html{
+        width: 100%;
+    }
+    div.introduce
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    div.content-introduce
+    {
+        width: 100%;
+        text-align: left;
+    } 
+    div.contain-img
+    {
+        display: none;
+    }
+    div.buttonclick
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    input#try
+    {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+    div.contain-donor
+    {
+        width: 100%;
+    }
+    div.list-donor
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    div.list-donor-items
+    {
+        width: 40%;
+    }
+    div.content-introduce p
+    {
+        margin: 5px;
+    }
+    div.suggest
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    div.suggest-content
+    {
+        width: 90%;
+        text-align: left;
+    }
+    div.suggest-img
+    {
+        width: 100%;
+    }
+    div.start
+    {
+        width: 100%;
+    }
+    div.start-content
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    div.start-step
+    {
+        width: 70%;
+    }
+    div.course
+    {
+        width: 100%;
+    }
+    div.course-content
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    div.course-content-items
+    {
+        width: 70%;
+        margin: 15%;
+    }
+    div.watch
+    {   
+        position: absolute;
+        top: 41%;
+        left: 32%;
+    }
+    div.watch1
+    {
+        position: absolute;
+        top: 68.5%;
+        left: 32%;
+    }
+    div.watch2
+    {
+        position: absolute;
+        top: 96.5%;
+        left: 32%;
+    }
+    div.teacher
+    {
+        width: 100%;
+    }
+    div.logo-company
+    {
+        width: 100%;
+    }
+    div.logo-company img
+    {
+        width: 80%;
+    }
+    div.teacher-content
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    div.teacher-profile
+    {
+        width: 100%;
+        margin: 5% 0% 5% 0%;
+    }
+    div.contract-course
+    {
+        width: 100%;
+    }
+    div.contract-course-content
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    div.infomation-course
+    {
+        width: 90%;
+        margin: 5% 0% 5% 0%;
+        text-align: left;
+    }
+    div.register
+    {
+        width: 90%;
+        margin: 5% 0% 5% 0%;
+        text-align: left;
+    }          
+}

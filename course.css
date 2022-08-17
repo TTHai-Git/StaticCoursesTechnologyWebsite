@@ -244,10 +244,11 @@ div.course
 div.course-content
 {
     width: 90%;
-    margin-left: 5%;
+    /* margin-left: 5%;
     margin-right: 5%;
     margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-bottom: 2.5%; */
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -377,7 +378,22 @@ div.teacher-profile p
 }
 div.img-teacher
 {
-    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+    margin: 0 auto;
+}
+.img-teacher .imgs-teacher
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+   
+   
 }
 div.author
 {
@@ -462,3 +478,4 @@ div.button
 {
     padding: 20px 10px 10px 0px;
 }
+

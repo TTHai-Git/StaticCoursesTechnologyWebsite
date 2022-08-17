@@ -239,12 +239,15 @@ div.course
 {
     width: 100%;
     background-color: #282781;
-    position: absolute;
+    position: relative;
 }
 div.course-content
 {
     width: 90%;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -289,12 +292,12 @@ input#watch-more
     font-weight: 700!important;
     background-color: #f15a29;
     box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
-    transition: background-color 300ms ease 0ms;
+    transition: background-color white 300ms ease 0ms;
 }
 div.watch
 {
     position: absolute;
-    top: 79%;
+    top: 90%;
     left: 15.5%;
     z-index: 999;
     
@@ -302,7 +305,7 @@ div.watch
 div.watch1
 {
     position: absolute;
-    top: 79%;
+    top: 90%;
     left: 46%;    
     z-index: 999;
 
@@ -310,7 +313,7 @@ div.watch1
 div.watch2
 {
     position: absolute;
-    top: 79%;
+    top: 90%;
     left: 76%;
     z-index: 999;
   
@@ -333,4 +336,129 @@ div.title-course p
     font-size: 1.5rem;
     color: #ffffff;
     font-weight: 600;
+}
+div.teacher-content
+{
+    background-color: #f3f3fa;
+}
+div.logo-company
+{
+    width: 90%;
+    margin: 2.5% 5% 2.5% 5%;
+    display: flex;
+    justify-content: space-around;
+}
+div.teacher-content
+{
+    width: 90%;
+    margin: 2.5% 5% 2.5% 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.teacher-profile
+{
+    width: 30%;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 70px 20px 70px 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
+}
+div.teacher-profile h3
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+div.teacher-profile p
+{
+    font-size: 1.1rem;
+    padding: 12px;
+}
+div.img-teacher
+{
+    text-align: center;
+}
+div.author
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+div.teacher > h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+}
+div.contract-course
+{
+    width: 100%;
+    background-color: #4787e0;
+}
+div.contract-course-content
+{
+    width: 90%;
+    margin: 2.5% 5% 2.5% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div.infomation-course
+{
+    width: 40%;
+}
+div.register
+{
+    width: 40%;
+}
+input#contract
+{
+    display: block;
+    padding: 16px;
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+    border-radius: 7px;
+    height: 50px;
+}
+div.infomation-course h2
+{
+    font-size: 2.3rem;
+    color: #f3f3fa;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+}
+div.register h3
+{
+    margin-top: 20px;
+    padding: 10px 10px 10px 0px;
+    font-size: 2.0rem;
+    color: #f3f3fa;
+    font-weight: bold;
+}
+div.register p
+{
+    padding: 0px 10px 20px 0px;
+    font-size: 1.6rem;
+    color: #f3f3fa;
+}
+input#register
+{
+    padding: 20px;
+    width: 190px;
+    height: 60px;
+    font-size: 1.0rem;
+    color: #ffffff!important;
+    border-width: 0px!important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 7px;
+    font-weight: 700!important;
+    background-color: #f15a29!important;
+    cursor: pointer;
+    box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
+    transition: background-color 300ms ease 0ms;
+}
+div.button
+{
+    padding: 20px 10px 10px 0px;
 }
